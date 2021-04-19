@@ -1,6 +1,7 @@
 import csv
 import os.path
 import sys
+from datetime import datetime
 
 all_projects = set()
 
@@ -84,6 +85,8 @@ def generate_result_table():
 
     # end table
     result_html += "</table>\n"
+    result_html += "</br>\n"
+    result_html += "<p>Generated on: %s</p>\n" % (datetime.now())
     return result_html
 
 

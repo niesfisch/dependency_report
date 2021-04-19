@@ -130,8 +130,8 @@ def build_model():
 
 report_html_filename = "report.html"
 
-version_csv_dir = "/home/msauer/dependency_report/results/" #sys.argv[1]  # 1st arg
-report_result_dir = "/home/msauer/dependency_report/report" # sys.argv[2]  # 2nd arg
+version_csv_dir = sys.argv[1]  # 1st arg
+report_result_dir = sys.argv[2]  # 2nd arg
 
 print("using result cvs from directory: %s" % version_csv_dir)
 print("using report directory: %s" % report_result_dir)

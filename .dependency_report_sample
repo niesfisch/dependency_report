@@ -12,7 +12,7 @@ PROJECTS=(
 )
 
 # dir where the projects will be checked out, will be created if not existent
-WORK_DIR="${HOME}/dependencycheck"
+WORK_DIR="${HOME}/dependency_report"
 
 # dir where to store the temporary csv results, will be created if not existent
 RESULTS_DIR="${WORK_DIR}/results"

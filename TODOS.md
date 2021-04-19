@@ -1,0 +1,3 @@
+- seems like all analyzers do similar work, so maybe refactor to use template pattern
+- support gradle transitive
+- support maven multi module projects

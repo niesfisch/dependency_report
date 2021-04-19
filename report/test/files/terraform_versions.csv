@@ -1,0 +1,16 @@
+project_abc;registry.terraform.io/hashicorp/aws;3.22.0
+project_abc;terraform;0.14.3
+project_abc;registry.terraform.io/hashicorp/aws;3.22.0
+project_abc;registry.terraform.io/hashicorp/random;3.0.0
+project_abc;terraform;0.14.3
+project_12345;registry.terraform.io/hashicorp/aws;3.22.0
+project_12345;terraform;0.14.3
+project_abcdef;registry.terraform.io/hashicorp/archive;2.1.0
+project_abcdef;registry.terraform.io/hashicorp/google;3.56.0
+project_abcdef;registry.terraform.io/hashicorp/null;3.1.0
+project_abcdef;terraform;0.14.6
+project_oooo;registry.terraform.io/hashicorp/google;3.56.0
+project_oooo;registry.terraform.io/hashicorp/google-beta;3.56.0
+project_oooo;terraform;0.14.10
+project_12345;registry.terraform.io/hashicorp/google;3.56.0
+project_12345;terraform;0.14.10

@@ -1,0 +1,25 @@
+# the github personal access token (PAT) that will be used for cloning the repo
+# created via https://github.com/settings/tokens
+GITHUB_TOKEN="ghp_1234...."
+
+# the org/personal 'XXX' namespace under github.com/XXX/projectABC
+GITHUB_NAMESPACE="niesfisch"
+
+# projects that will be cloned and analyzed
+PROJECTS=(
+  "tokenreplacer"
+  "java-code-tracer"
+)
+
+# dir where the projects will be checked out, will be created if not existent
+WORK_DIR="${HOME}/dependencycheck"
+
+# dir where to store the temporary csv results, will be created if not existent
+RESULTS_DIR="${WORK_DIR}/results"
+
+# dir where to store the html report csv results, will be created if not existent
+REPORT_DIR="${WORK_DIR}/report"
+
+# if transitive dependencies for maven, gradle etc. should be included in the report, default false [true|false]
+# currently maven only
+ANALYZERS_INCLUDE_TRANSITIVE_DEPS=false
